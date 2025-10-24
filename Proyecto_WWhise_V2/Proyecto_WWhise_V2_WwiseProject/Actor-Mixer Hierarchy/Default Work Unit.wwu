@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{0AEC80C1-F2A4-438C-BA1E-54D4798BD8FE}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SFX" ID="{62480E52-C32B-4DC3-962F-9004096380A1}" ShortID="534051372">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Puerta_Golpe_Random" ID="{50E64B31-35BD-4F9D-AE59-846988D00BB7}" ShortID="742962938">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Sonido_Puerta_V1" ID="{F1F5D919-7F8F-4304-9A61-F46C3E62D27E}" ShortID="693121727">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sonido_Puerta_V1" ID="{DF56AE55-68A9-4601-8AB9-3A78D29A4D76}">
+											<Language>SFX</Language>
+											<AudioFile>Sonido_Puerta_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019420509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sonido_Puerta_V1" ID="{DF56AE55-68A9-4601-8AB9-3A78D29A4D76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sonido_Puerta_V2" ID="{DBCABFE5-A424-4951-8AF8-84CA379FB59A}" ShortID="44840466">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sonido_Puerta_V2" ID="{833082D7-A9CC-4C3D-92A8-3B8F7E490AB9}">
+											<Language>SFX</Language>
+											<AudioFile>Sonido_Puerta_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="379062858"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sonido_Puerta_V2" ID="{833082D7-A9CC-4C3D-92A8-3B8F7E490AB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sonido_Puerta_V3" ID="{25E99EF7-C65F-4F56-B587-40C72B792E19}" ShortID="541021409">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sonido_Puerta_V3" ID="{B6E50125-2703-410F-967D-F1153F123A80}">
+											<Language>SFX</Language>
+											<AudioFile>Sonido_Puerta_V3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="319287017"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sonido_Puerta_V3" ID="{B6E50125-2703-410F-967D-F1153F123A80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Sonidos_Tubo" ID="{EFFB1615-D42B-49EA-A626-294EA50EFCD4}" ShortID="738794723">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Tubo" ID="{7A27C167-16AE-4AF8-9E72-093FDF7F5817}" WorkUnitID="{17187AD5-2603-4766-8B65-3C75866EB436}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sonidos_Tubo" ID="{01637650-DD24-4D93-BEA0-1E3D9BAB1580}">
+									<Language>SFX</Language>
+									<AudioFile>Sonidos_Tubo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="136225869"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sonidos_Tubo" ID="{01637650-DD24-4D93-BEA0-1E3D9BAB1580}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sonido_camilla" ID="{85481927-7F82-4ED1-A669-5ACBF661474B}" ShortID="627285800">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sonido_camilla" ID="{D78E17C9-D379-4723-B0C5-0FE4C7E210F7}">
+									<Language>SFX</Language>
+									<AudioFile>Sonido_camilla.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="175709957"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sonido_camilla" ID="{D78E17C9-D379-4723-B0C5-0FE4C7E210F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sonidos_Cama" ID="{1D11CFD1-6142-428A-B9ED-1EE98E838640}" ShortID="293828697">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sonidos_Cama" ID="{0B3933BE-2521-4523-A7DF-E1B41B42862D}">
+									<Language>SFX</Language>
+									<AudioFile>Sonidos_Cama.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="297696855"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sonidos_Cama" ID="{0B3933BE-2521-4523-A7DF-E1B41B42862D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Ventana_Tap_Random" ID="{2071477C-7FF8-4E69-8E52-B282D9EBF3CA}" ShortID="209858141">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Sonidos_Ventana_V1" ID="{363D0C5C-BC82-4DAC-A45E-3F2AB7E29668}" ShortID="335570513">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sonidos_Ventana_V1" ID="{CE1A6FB0-FDF1-48A0-8461-0B905DC23B69}">
+											<Language>SFX</Language>
+											<AudioFile>Sonidos_Ventana_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="908889083"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sonidos_Ventana_V1" ID="{CE1A6FB0-FDF1-48A0-8461-0B905DC23B69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sonidos_Ventana_V2" ID="{207D333B-6233-4E24-8119-89E7D155D758}" ShortID="381569043">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sonidos_Ventana_V2" ID="{8B6639E6-B9A3-4A0A-BF38-183E5EBF9826}">
+											<Language>SFX</Language>
+											<AudioFile>Sonidos_Ventana_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="918207000"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sonidos_Ventana_V2" ID="{8B6639E6-B9A3-4A0A-BF38-183E5EBF9826}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sonidos_Ventana_V3" ID="{5B84C32A-770B-481F-A940-CF0456929996}" ShortID="23398152">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sonidos_Ventana_V3" ID="{A668D383-0AEA-411F-8396-15CA9C73808E}">
+											<Language>SFX</Language>
+											<AudioFile>Sonidos_Ventana_V3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="301318690"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sonidos_Ventana_V3" ID="{A668D383-0AEA-411F-8396-15CA9C73808E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="mueble_v1" ID="{73FD5566-73F5-468F-AF3E-7213F998C90B}" ShortID="239564093">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mueble_v1" ID="{26A6B5F5-A9DD-4768-BFE3-9CC4380D939F}">
+									<Language>SFX</Language>
+									<AudioFile>mueble_v1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="684448579"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mueble_v1" ID="{26A6B5F5-A9DD-4768-BFE3-9CC4380D939F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mueble_v2" ID="{A1F5621E-9C55-43B0-9709-99E24E45D05A}" ShortID="494489781">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mueble_v2" ID="{E54510F0-750F-4EC3-A2EA-E95C06B9B766}">
+									<Language>SFX</Language>
+									<AudioFile>mueble_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="535891736"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mueble_v2" ID="{E54510F0-750F-4EC3-A2EA-E95C06B9B766}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sonidos_Tubo_V3" ID="{5C26F967-D692-4061-A421-372A26204D3E}" ShortID="781153703">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Tubo_v2" ID="{A4E894BA-C5AD-4599-A4EE-35E30D75E0AC}" WorkUnitID="{17187AD5-2603-4766-8B65-3C75866EB436}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sonidos_Tubo_V3" ID="{00EAA173-5482-4F3E-85D5-756992808FD0}">
+									<Language>SFX</Language>
+									<AudioFile>Sonidos_Tubo_V3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="376154045"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sonidos_Tubo_V3" ID="{00EAA173-5482-4F3E-85D5-756992808FD0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AMB" ID="{A2B87CF4-D98A-4E82-96F8-B171A13B319F}" ShortID="754635589">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="AMB_Hospital_Layered" ID="{DA8F9F02-CDA3-46A7-974D-5481B66F3699}" ShortID="820765638">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambiente" ID="{06467615-DDA1-46B7-A582-FDB2A76FF5C0}" ShortID="986905500">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente" ID="{1175FC48-6AD3-4877-BB63-C744554D5E33}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="851551020"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente" ID="{1175FC48-6AD3-4877-BB63-C744554D5E33}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sonido_Hospital_ambiente" ID="{F0CDE092-26E3-46A5-BFDD-6D13AE8D6558}" ShortID="27151167">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sonido_Hospital_ambiente" ID="{F3FDE76B-67FF-4E1B-A451-32EA58EF0630}">
+											<Language>SFX</Language>
+											<AudioFile>Sonido_Hospital_ambiente.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="60289013"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sonido_Hospital_ambiente" ID="{F3FDE76B-67FF-4E1B-A451-32EA58EF0630}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="WHISPERS" ID="{A992DF80-FFD7-4550-8746-85088A473657}" ShortID="417881276">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sonidos_Susurro" ID="{7B6BF065-9A06-4980-BEB1-E2531E69C6BA}" ShortID="352173621">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sonidos_Susurro" ID="{FCA34392-E8A5-4ADE-8E22-7C0AA3BE0144}">
+									<Language>SFX</Language>
+									<AudioFile>Sonidos_Susurro.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="973395374"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sonidos_Susurro" ID="{FCA34392-E8A5-4ADE-8E22-7C0AA3BE0144}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sonidos_Susurro_V2" ID="{8A79E6D0-5E50-43EC-AC66-87C541C0B87D}" ShortID="330147848">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sonidos_Susurro_V2" ID="{30135095-D491-41D3-8EE1-3BC851803111}">
+									<Language>SFX</Language>
+									<AudioFile>Sonidos_Susurro_V2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="316651106"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sonidos_Susurro_V2" ID="{30135095-D491-41D3-8EE1-3BC851803111}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sonidos_Susurro_V3" ID="{B3B7A82E-6EAB-4A58-A8BA-B66265606403}" ShortID="907554105">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BF040B-EB55-419B-A32E-E12DDF5C93FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B0FBFC18-4034-477F-961E-37AD14DA9BD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sonidos_Susurro_V3" ID="{9DD67182-83E9-4BF8-B92B-9AE9566D9299}">
+									<Language>SFX</Language>
+									<AudioFile>Sonidos_Susurro_V3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="871861210"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sonidos_Susurro_V3" ID="{9DD67182-83E9-4BF8-B92B-9AE9566D9299}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
