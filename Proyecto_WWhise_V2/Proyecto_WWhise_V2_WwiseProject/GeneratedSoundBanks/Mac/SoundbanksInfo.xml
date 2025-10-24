@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{752F5FF0-2574-6EA8-9FB1-1A0F3E7148D6}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="60289013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonido_Hospital_ambiente.wav</ShortName>
+					<CachePath>SFX/Sonido_Hospital_ambiente_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="136225869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Tubo.wav</ShortName>
+					<CachePath>SFX/Sonidos_Tubo_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="175709957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonido_camilla.wav</ShortName>
+					<CachePath>SFX/Sonido_camilla_818F3B66.wem</CachePath>
+				</File>
+				<File Id="297696855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Cama.wav</ShortName>
+					<CachePath>SFX/Sonidos_Cama_818F3B66.wem</CachePath>
+				</File>
+				<File Id="301318690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Ventana_V3.wav</ShortName>
+					<CachePath>SFX/Sonidos_Ventana_V3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="316651106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Susurro_V2.wav</ShortName>
+					<CachePath>SFX/Sonidos_Susurro_V2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="319287017" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonido_Puerta_V3.wav</ShortName>
+					<CachePath>SFX/Sonido_Puerta_V3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="376154045" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Tubo_V3.wav</ShortName>
+					<CachePath>SFX/Sonidos_Tubo_V3_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="379062858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonido_Puerta_V2.wav</ShortName>
+					<CachePath>SFX/Sonido_Puerta_V2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="535891736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mueble_v2.wav</ShortName>
+					<CachePath>SFX/mueble_v2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="684448579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mueble_v1.wav</ShortName>
+					<CachePath>SFX/mueble_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="851551020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambiente.wav</ShortName>
+					<CachePath>SFX/Ambiente_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="871861210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Susurro_V3.wav</ShortName>
+					<CachePath>SFX/Sonidos_Susurro_V3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="908889083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Ventana_V1.wav</ShortName>
+					<CachePath>SFX/Sonidos_Ventana_V1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="918207000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Ventana_V2.wav</ShortName>
+					<CachePath>SFX/Sonidos_Ventana_V2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="973395374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonidos_Susurro.wav</ShortName>
+					<CachePath>SFX/Sonidos_Susurro_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1019420509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sonido_Puerta_V1.wav</ShortName>
+					<CachePath>SFX/Sonido_Puerta_V1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3700912920" Name="Mute_ambiente" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="60289013"/>
+						<MediaRef Id="851551020"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="94063951" Name="Play_Ambiente" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="60289013"/>
+						<MediaRef Id="851551020"/>
+						<MediaRef Id="973395374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3250665892" Name="Play_Cama" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
+					<MediaRefs>
+						<MediaRef Id="297696855"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3408996381" Name="Play_Camilla" DurationType="OneShot" DurationMin="9" DurationMax="9">
+					<MediaRefs>
+						<MediaRef Id="175709957"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1971000861" Name="Play_Golpe_Unavez" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="1019420509"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3360156480" Name="Play_Mueble_V1" DurationType="OneShot" DurationMin="4.848" DurationMax="4.848">
+					<MediaRefs>
+						<MediaRef Id="684448579"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3360156483" Name="Play_Mueble_V2" DurationType="OneShot" DurationMin="4.68" DurationMax="4.68">
+					<MediaRefs>
+						<MediaRef Id="535891736"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3686802613" Name="Play_Puerta_Golpe" DurationType="OneShot" DurationMin="2" DurationMax="4.5">
+					<MediaRefs>
+						<MediaRef Id="319287017"/>
+						<MediaRef Id="379062858"/>
+						<MediaRef Id="1019420509"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="545700022" Name="Play_Susto" DurationType="OneShot" DurationMin="4.5" DurationMax="4.5">
+					<MediaRefs>
+						<MediaRef Id="973395374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1031156720" Name="Play_Susurro_V2" DurationType="OneShot" DurationMin="23.5" DurationMax="23.5">
+					<MediaRefs>
+						<MediaRef Id="316651106"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1031156721" Name="Play_Susurro_V3" DurationType="OneShot" DurationMin="11.5" DurationMax="11.5">
+					<MediaRefs>
+						<MediaRef Id="871861210"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2176072023" Name="Play_tubo_fluoresecente" MaxAttenuation="5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="136225869"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3235161614" Name="Play_Tubo_fluoresente_v2" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="376154045"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1727156503" Name="Play_Ventana" DurationType="OneShot" DurationMin="5.5" DurationMax="9">
+					<MediaRefs>
+						<MediaRef Id="301318690"/>
+						<MediaRef Id="908889083"/>
+						<MediaRef Id="918207000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4152172729" Name="Unmute_susurro" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="973395374"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FB807BF4-6189-B527-2002-2EEE2D091592}</FileHash>
+</SoundBanksInfo>
